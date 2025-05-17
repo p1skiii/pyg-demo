@@ -21,5 +21,6 @@ class ToyFeatureStore:
     def __getitem__(self, key):
         group_name, after_name, index = key
         return self.get_tensor(group_name, after_name, index)
+        
 
     
