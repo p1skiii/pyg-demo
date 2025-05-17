@@ -27,4 +27,6 @@ print("节点1的x特征：", x1)
 # 取出节点0的'y'特征
 y0 = fs.get_tensor('paper', 'y', 0)
 print("节点0的y特征：", y0)
+y0 = fs['paper', 'y', 0]
+print("节点0的y特征：", y0)
 
